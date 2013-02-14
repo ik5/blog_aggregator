@@ -34,6 +34,28 @@
                   /* title to display when cursor over the image */
                   default_title  : 'blog favicon',
                 },
+  /* the location of the public directory and sub directories 
+   *
+   * THIS IS THE DIRECTORY THAT THE WEB SEE !
+   */
+  public_dir  : {
+                  /* root public directory */
+                  main       : 'web',
+
+                  /* images directories under root */
+                  images     : 'images',
+
+                  /* icons directory under root.
+                   * $images - A variable that represent the images directory
+                   */
+                  icons      : '$images/icons',
+
+                  /* javascript directory */
+                  javascript : '/js',
+
+                  /* css directory */
+                  css        : 'css/',
+                },
 
   /* list of places to save and load aggregation cache */
   cache_path  : [ 'cache/', '/var/spool/aggregate/cache' ],
